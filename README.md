@@ -14,8 +14,8 @@ This project is a minimal, modular FastAPI application designed for demonstratio
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/fastapi-backend-template.git
-   cd fastapi-backend-template
+   git clone https://github.com/anshupacific/anshu-deploy-python-fastapi-on-azure-app-service.git
+   cd anshu-deploy-python-fastapi-on-azure-app-service
    ```
 
 2. Install dependencies
@@ -74,12 +74,6 @@ curl "http://127.0.0.1:8000/api/echo-input?message=hello"
 - FastAPI
 - Uvicorn
 - Python 3.8+
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
