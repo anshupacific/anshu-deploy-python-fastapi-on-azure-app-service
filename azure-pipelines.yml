@@ -8,10 +8,10 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '3b47e52b-c07b-440d-af57-61d819a3d767'
+  azureServiceConnectionId: 'c78d8c7f-5be6-46cf-b588-c04ca835ec40'
 
   # Web app name
-  webAppName: 'python-fastapi-demo-webapp'
+  webAppName: 'fastapi-python'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -22,7 +22,7 @@ variables:
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-  pythonVersion: '3.11'
+  pythonVersion: '3.12'
 
 stages:
 - stage: Build
